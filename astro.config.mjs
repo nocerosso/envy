@@ -7,5 +7,6 @@ import react from "@astrojs/react";
 export default defineConfig({
   integrations: [react()],
   site: 'https://envysartorialist.it',
-  base: '/astro-ecommerce',
+  // base: '/astro-ecommerce/',       
+ // outDir: './docs',  // Imposta la cartella di output su docs
 });

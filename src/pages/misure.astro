@@ -1,0 +1,41 @@
+---
+import Layout from '../layouts/Layout.astro';
+import data from '../../public/data.json';
+import '../../assets/scss/astro-ecommerce.scss';
+import Navbar from '../components/navbar';
+import ComplexNavbar from '../components/complexNavbar';
+import ComplexNavbarDark from '../components/complexNavbarDark';
+import Footer from '../components/footer';
+import ComplexFooter from '../components/complexFooter';
+
+
+import ProductFeature2 from '../components/products/misure';
+
+---
+
+<script>
+  function toggleHeart(e) {
+    e.target.classList.toggle('fas');
+    e.target.classList.toggle('far');
+    e.target.classList.toggle('text-danger');
+  }
+  
+  document.getElementById('heart1').addEventListener("click", toggleHeart);
+</script>
+
+<Layout title="misure">
+	<main>
+    <Navbar />
+
+    <div class="container mt-2">
+
+        <ProductFeature2
+          title={data.products[0].title}
+          full_description={data.products[0].full_description}
+          images={data.products[2].images}
+          data={data.products[2].data}
+        />
+      <ComplexFooter />
+    </div>
+	</main>
+</Layout>

@@ -10,12 +10,12 @@ export default function StoreNavbar() {
         <ul className="navbar-nav d-none d-lg-flex ps-md-8">
           <li className="nav-item px-3 py-3 border-radius-sm d-flex align-items-center">
             <a href="#" className="nav-link p-0">
-              Women
+              Donna
             </a>
           </li>
           <li className="nav-item px-3 py-3 border-radius-sm d-flex align-items-center">
             <a href="#" className="nav-link p-0">
-              Men
+              Uomo
             </a>
           </li>
           <li className="nav-item px-3 py-3 border-radius-sm d-flex align-items-center">

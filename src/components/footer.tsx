@@ -9,11 +9,11 @@ export default function Footer() {
               <script>document.write(new Date().getFullYear())</script>
               &nbsp;Astro Ecommerce by 
               <a
-                href="https://www.creative-tim.com"
+                href="https://envysartirialist.it"
                 className="text-dark ms-1"
                 target="_blank"
               >
-                Creative Tim
+                Envysartirialist.it
               </a>
               .
             </div>
@@ -35,7 +35,7 @@ export default function Footer() {
                   className="nav-link text-sm text-muted"
                   target="_blank"
                 >
-                  About Us
+                  Chi siamo
                 </a>
               </li>
               <li className="nav-item">
@@ -49,11 +49,11 @@ export default function Footer() {
               </li>
               <li className="nav-item">
                 <a
-                  href="https://www.creative-tim.com/license"
+                  href="https://pedani.it"
                   className="nav-link text-sm pe-0 text-muted"
                   target="_blank"
                 >
-                  License
+                  Licenza
                 </a>
               </li>
             </ul>

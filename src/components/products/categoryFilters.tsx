@@ -34,8 +34,8 @@ export default function ProductOverview({
         <div className="row mt-5">
           <div className="col-12 col-md-4">
             <ul className="list-unstyled ms-3">
-              <li className="mb-2"><a href="#">Man</a></li>
-              <li className="mb-2"><a href="#">Woman</a></li>
+              <li className="mb-2"><a href="#">Uomo</a></li>
+              <li className="mb-2"><a href="#">Donna</a></li>
               <li className="mb-2"><a href="#">Sales</a></li>
               <li className="mb-2"><a href="#">Permanent Collection</a></li>
               <li className="mb-2"><a href="#">New</a></li>

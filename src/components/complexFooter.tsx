@@ -20,7 +20,7 @@ export default function ComplexFooter() {
                 document.write(new Date().getFullYear())
               </script>
               
-              <a href="/astro-ecommerce/" className="text-dark" target="_blank">&nbsp;Envy Sartorialist  &nbsp;</a>.
+              <a href="#" className="text-dark" target="_blank">&nbsp;Envy Sartorialist  &nbsp;</a>.
             </div>
           </div>
         </div>

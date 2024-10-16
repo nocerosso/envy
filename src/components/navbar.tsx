@@ -41,9 +41,9 @@ const Navbar = () => {
                 Pages
               </a>
               <ul className="dropdown-menu" aria-labelledby="pagesExample">
-                <li><a className="dropdown-item" href="/astro-ecommerce/landing/">Landing Page</a></li>
-                <li><a className="dropdown-item" href="/astro-ecommerce/product/">Product Page</a></li>
-                <li><a className="dropdown-item" href="/astro-ecommerce/shopping-cart/">carrello</a></li>
+                <li><a className="dropdown-item" href="/landing/">Landing Page</a></li>
+                <li><a className="dropdown-item" href="/product/">Product Page</a></li>
+                <li><a className="dropdown-item" href="/shopping-cart/">carrello</a></li>
               </ul>
             </li> */}
 

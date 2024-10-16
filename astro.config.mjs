@@ -7,6 +7,6 @@ import react from "@astrojs/react";
 export default defineConfig({
   integrations: [react()],
   site: 'https://shop.envysartorialist.it',
-  base: '/',  // Può essere omesso se non è necessario
+  base: '/envy/',  // Può essere omesso se non è necessario
   outDir: './docs'
 });

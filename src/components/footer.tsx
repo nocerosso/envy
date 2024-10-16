@@ -7,9 +7,9 @@ export default function Footer() {
             <div className="copyright text-center text-sm text-muted text-lg-start">
               Copyright ©{" "}
               <script>document.write(new Date().getFullYear())</script>
-              &nbsp;Astro Ecommerce by 
+              &nbsp; by 
               <a
-                href="https://envysartirialist.it"
+                href="#"
                 className="text-dark ms-1"
                 target="_blank"
               >
@@ -22,16 +22,16 @@ export default function Footer() {
             <ul className="nav nav-footer justify-content-center justify-content-lg-end">
               <li className="nav-item">
                 <a
-                  href="https://www.creative-tim.com"
+                  href="#"
                   className="nav-link text-sm text-muted"
                   target="_blank"
                 >
-                  Creative Tim
+                  pedani
                 </a>
               </li>
               <li className="nav-item">
                 <a
-                  href="https://www.creative-tim.com/presentation"
+                  href="#"
                   className="nav-link text-sm text-muted"
                   target="_blank"
                 >
@@ -40,7 +40,7 @@ export default function Footer() {
               </li>
               <li className="nav-item">
                 <a
-                  href="https://www.creative-tim.com/blog"
+                  href="#"
                   className="nav-link text-sm text-muted"
                   target="_blank"
                 >
@@ -49,7 +49,7 @@ export default function Footer() {
               </li>
               <li className="nav-item">
                 <a
-                  href="https://pedani.it"
+                  href="#"
                   className="nav-link text-sm pe-0 text-muted"
                   target="_blank"
                 >
